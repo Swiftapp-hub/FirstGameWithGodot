@@ -1,3 +1,11 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://import/blender_scene/first_low_poly_scene.glb" type="PackedScene" id=1]
 
 [node name="Main" type="Spatial"]
+
+[node name="first_low_poly_scene" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, -1 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 0.730198, -0.265655, 0.629475, 0, 0.921314, 0.388818, -0.683236, -0.283914, 0.672742, 5.1908, 2.70182, 1.59155 )
