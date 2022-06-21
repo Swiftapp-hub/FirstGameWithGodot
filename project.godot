@@ -10,7 +10,7 @@ config_version=4
 
 [application]
 
-config/name="Nouveau Projet De Jeu"
+config/name="Test"
 config/icon="res://icon.png"
 
 [physics]

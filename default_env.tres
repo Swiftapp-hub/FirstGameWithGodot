@@ -5,3 +5,9 @@
 [resource]
 background_mode = 2
 background_sky = SubResource( 1 )
+background_sky_orientation = Basis( 1, 0, 0, 0, 2.055, 0, 0, 0, 1 )
+ambient_light_energy = 2.0
+glow_enabled = true
+glow_intensity = 0.54
+glow_strength = 0.71
+glow_bloom = 0.13
