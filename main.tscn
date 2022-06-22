@@ -5,3 +5,9 @@
 [node name="Spatial" type="Spatial"]
 
 [node name="main2" parent="." instance=ExtResource( 1 )]
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( -0.790424, -0.201925, 0.578321, -0.00747822, 0.947217, 0.320506, -0.612514, 0.249011, -0.750214, 0.850405, 0.339982, -0.554468 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 0.923873, -0.247643, 0.291773, 0.118439, 0.909997, 0.397338, -0.363911, -0.332532, 0.870052, 0, 0, 0 )
